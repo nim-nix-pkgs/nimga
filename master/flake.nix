@@ -11,6 +11,7 @@
   inputs.src-nimga-master.ref   = "refs/heads/master";
   inputs.src-nimga-master.owner = "toshikiohnogi";
   inputs.src-nimga-master.repo  = "nimga";
+  inputs.src-nimga-master.dir   = "";
   inputs.src-nimga-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
